@@ -1,0 +1,150 @@
+<!--容器-->
+<div class="container">
+    <!--左侧7个服务-->
+    <div class="col-md-2 col-md-offset-1 ">
+        <ul class="serviceMenu">
+            <li><a ng-click="goPersonCenter()" ng-class="{active:selectedService=='person-center'}">个人中心</a></li>
+            <li><a ng-click="selectService('order')" ng-class="{active:selectedService=='order'}">我的订单</a></li>
+            <li><a ng-click="selectService('cart')" ng-class="{active:selectedService=='cart'}">购物车</a></li>
+            <li><a ng-click="selectService('voucher')" ng-class="{active:selectedService=='voucher'}">我的礼劵</a></li>
+            <li><a ng-click="selectService('card')" ng-class="{active:selectedService=='card'}">我的礼品卡</a></li>
+            <li><a ng-click="selectService('modifyPassword')" ng-class="{active:selectedService=='modifyPassword'}">修改密码</a></li>
+            <li><a ng-click="selectService('person-info')" ng-class="{active:selectedService=='person-info'}">个人信息</a></li>
+
+
+        </ul>
+
+
+    </div>
+    <!--右侧 页面内容-->
+    <div class="col-md-9">
+        <div ng-switch="selectedService">
+            <!--个人中心-->
+            <div ng-switch-when="person-center">
+                <div class="panel panel-default">
+                    <div class="panel-heading" style="background: #9dc819;">
+                        <h3 class="panel-title" style="font-weight: 700;"> <i style="background: #390c20;">&nbsp;</i> 欢迎来到派悦坊 <span style="float: right;color:#fff;text-decoration: underline;cursor: pointer;">修改个人信息</span> </h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="person-center number">
+                                有效期消费积分0</div>
+                            <h4 style="color:gray;">
+                                你好,亲爱的杨杰，
+                            </h4>
+                            <h3> 你目前是普通会员</h3>
+                        </div>
+
+                        <!--进度-->
+                        <div class="row">
+                            <h4>再购买6次 升级为银会员</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                    <span class="sr-only">60% Complete</span>
+                                </div>
+                            </div>
+                            <h4>再购买满600元升级为银会员</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                    <span class="sr-only">60% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!--记录和礼奍-->
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img width="75px" src="https://www.pantrysbest.com/assets/crm/orders-4deb143eb29235c3cb3970a5de425b19.png" alt="" class="center-img">
+                            </div>
+                            <div class="col-md-6">
+                                <img src="https://www.pantrysbest.com/assets/crm/coupons-4854fe771152a06fb6b8458bef45b635.png" alt="" width="75px" class="center-img">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <hr>
+                            <h3 class="text-center">个人信息</h3>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div>姓名:杨杰</div>
+                                    <div>电话:13212780816</div>
+                                    <div>亲友1生日:1978-08-04</div>
+                                    <div>电子邮箱：2121718893@qq.com</div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div>会员卡号：0000354066</div>
+                                    <div>生日:1993-11-13</div>
+                                    <div>亲友2生日：2006-09-13</div>
+                                    <div>电子邮箱：2121718893@qq.com</div>
+                                </div>
+
+                                <div class="col-md-12 text-right" ng-click="selectService('person-info')"><a>修改个人信息>></a></div>
+                            </div>
+                            <hr>
+                            <h3 class="text-center">特殊要求</h3>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-12">无</div>
+                                <div class="col-md-12 text-right" ng-click="selectService('person-info')"><a>修改个人信息>></a></div>
+                            </div>
+                            <hr>
+                            <h3 class="text-center"> 我的会员权益</h3>
+                            <hr>
+                            <div class="row">
+                                邀请好友 注册成功并完成订单后奖励100积分 生日眼镜／单
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--个人中心 END-->
+
+            <!--购物车-->
+            <div ng-switch-when="cart">
+
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>产品</th>
+                            <th>大小</th>
+                            <th>价格</th>
+                            <th>个数</th>
+                            <th>总价</th>
+                            <th>删除商品</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr ng-repeat="product in buyProducts" class="addedProducts">
+                            <td style="    width: 120px;text-align: center;">
+                                <img src="{{product.images[0]}}" alt="" class="img-responsive">
+                                <div>{{product.name}}</div>
+                            </td>
+                            <td>
+                                {{product.size}}
+                            </td>
+                            <td>
+                                {{product.price}}￥
+                            </td>
+                            <td> <i ng-click="lessProduct(product)" class="fa fa-minus-square"></i> {{product.addedNum}} <i ng-click="moreProduct(product)" class="fa fa-plus-square"></i></td>
+                            <td>{{product.addedNum*product.price}}￥</td>
+                            <td ng-click="deleteProduct(product)"><i class="fa fa-remove"></i></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!--购物车 End-->
+
+
+
+        </div>
+
+
+    </div>
+
+</div>
+
+
+
+
+<div class="footer" ng-include="'pages/footer.html'"></div>

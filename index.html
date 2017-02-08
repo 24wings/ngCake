@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>派送喜悦蛋糕房</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../assets/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="assets/angular-ui-bootstrap/dist/ui-bootstrap-csp.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="assets/bootstrap-select/dist/css/bootstrap-select.min.css">
+
+
+    <script src="assets/jquery/dist/jquery.min.js"></script>
+    <script src="assets/bootstrap/dist/js/bootstrap.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="assets/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+    <script src="assets/bootstrap-select/dist/js/i18n/defaults-zh_CN.min.js"></script>
+
+
+</head>
+
+
+<body ng-app="myApp" style="position: relative;">
+
+
+
+    <!--导航栏-->
+    <div ng-include="'pages/navbar.html'" ng-controller="NavbarCtrl"></div>
+
+    <!--页面的视图-->
+    <div ng-view="" style="margin-top:50px;margin-bottom:60px;"></div>
+
+
+
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=m9mBP1IUiu5BtBQhro3lKFto5MaHhyEN"></script>
+
+    <script src="assets/angular/angular.min.js"></script>
+    <script src="assets/angular-route/angular-route.min.js"></script>
+
+
+    <script src="assets/angular-ui-bootstrap/dist/ui-bootstrap.js"></script>
+    <script src="assets/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js"></script>
+    <script src="assets/angular-animate/angular-animate.min.js"></script>
+
+    <script src="js/controllers.js"></script>
+    <script src="js/services.js"></script>
+    <script src="js/directives.js"></script>
+    <script src="js/app.js"></script>
+
+
+
+</body>
+
+</html>

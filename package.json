@@ -1,0 +1,27 @@
+{
+  "name": "cake",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/angularjs": "^1.5.14-alpha",
+    "@types/bootstrap": "^3.3.32",
+    "@types/jquery": "^2.0.39",
+    "angular": "^1.6.1",
+    "angular-animate": "^1.6.1",
+    "angular-route": "^1.6.1",
+    "angular-ui-bootstrap": "^2.4.0",
+    "angularjs": "^0.0.1",
+    "bootstrap": "^3.3.5",
+    "bootstrap-select": "^1.12.2",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.1.1",
+    "normalize.css": "^5.0.0",
+    "ui-bootstrap": "^0.1.6"
+  }
+}

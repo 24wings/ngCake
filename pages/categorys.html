@@ -1,0 +1,86 @@
+<div>
+    <script type="text/ng-template" id="group-template.html">
+        <div class="panel-heading productGroup-heading" ng-click="selectProductGroup(heading)">
+            <h4 class="panel-title" style="color:#fa39c3">
+                <a href tabindex="0" class="accordion-toggle" uib-accordion-transclude="heading">
+                    <span uib-accordion-header ng-class="{'text-muted': isDisabled}">
+            {{ heading.id   }}
+          </span>
+                </a>
+            </h4>
+        </div>
+        <div class="panel-collapse collapse" uib-collapse="!isOpen">
+            <div class="panel-body" style="text-align: right" ng-transclude></div>
+        </div>
+    </script>
+    <div class="container-fluid" style="margin-top: 50px;">
+        <!--左边侧边栏-->
+        <div class="col-md-3" ng-init="isNavCollapsed=false">
+
+            <uib-accordion>
+                <div uib-accordion-group ng-repeat="productGroup in productGroups" class="panel-default">
+                    <uib-accordion-heading ng-class="{selectedProductGroup:selectedProductGroup==productGroup,productGroup:true} ">
+                        <h4 ng-click="selectProductGroup(productGroup) ">{{productGroup.name}}</h4>
+                    </uib-accordion-heading>
+                    <ul>
+                        <li ng-repeat="product in productGroup.products " align="left " ng-click="selectProduct(product) "><a style="color:#000 !important; ">{{product.name}}</a></li>
+                    </ul>
+                </div>
+            </uib-accordion>
+
+        </div>
+        <!--右边的产品介绍-->
+        <div class="col-md-9 col-lg-9 " style="height: 300px; " ng-hide="selectedProduct ">
+            <div class="box row " ng-repeat="product in selectedProductGroup.products ">
+                <div class="col-md-4 col-lg-4 ">
+                    <img ng-src="{{product.images[0]}} " class="img-responsive " alt=" " ng-click="selectProduct(product) ">
+                </div>
+                <div class="col-md-4 col-lg-4 ">
+                    <h4>{{product.name}}</h4>
+                    <div>{{product.price}}￥</div>
+                    <i><span>{{ product.keywords}} </span></i>
+                </div>
+                <div class="col-md-4 col-lg-4 ">
+                    <button class=" less-btn " ng-click="lessProduct(product) "></button>
+                    <!--<button class="btn btn-primary ">{{product.addedNum?product.addedNum:0}}</button>-->
+                    {{product.addedNum!=null?product.addedNum:0}}
+                    <button class=" more-btn " ng-click="moreProduct(product) " flytocart="{{product.images[0]}} "></button>
+                </div>
+            </div>
+        </div>
+        <!--右边的产品详情 当选中产品时才显示-->
+        <div class="col-md-6 col-lg-6 " style="height: 300px; " ng-show="selectedProduct ">
+            <div class="box row ">
+                <img src="{{ selectedImage || selectedProduct.images[0]}} " alt=" " class="img-responsive ">
+                <div class="col-md-2 col-lg-2 " ng-repeat="image in selectedProduct.images ">
+                    <img src="{{image}} " class="img-responsive " ng-mouseenter="selectImage(image) ">
+                </div>
+            </div>
+            <!--产品详情-->
+            <div class="box row ">
+                <span class="h2 ">{{selectedProduct.name}}</span>
+                <span style="display: inline-block; width: 50px; height:30px; background: red; color:#fff; float: right ">礼盒</span>
+            </div>
+            <div class="box row ">
+                <div class="col-md-6 ">{{selectedProduct.description}}</div>
+                <div class="col-md-6 " style="float: right ">
+                    ￥{{selectedProduct.price}} 数量
+
+                    <span ng-click="lessProduct(selectedProduct) "><i class="fa fa-minus " ></i></span>{{selectedProduct.addedNum}}
+                    <span ng-click="moreProduct(selectedProduct) "><i class="fa fa-plus " ></i></span>
+                </div>
+            </div>
+            <div class="box row ">
+                主要配料:{{selectedProduct.matrial}}
+            </div>
+            <div class="box row ">
+                温馨提示 <br> 1、蛋糕收到后在2-3小时食用最佳, 纸杯蛋糕收到后在1小时食用最佳，如果食用不完请冷藏保存，在24小时内食用完毕 <br> 2、如对上述食材有过敏经历者请选择其它款蛋糕
+            </div>
+            <div>
+            </div>
+        </div>
+
+    </div>
+
+
+</div>

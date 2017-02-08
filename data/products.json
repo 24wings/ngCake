@@ -1,0 +1,128 @@
+{
+    "productGroups": [{
+            "id": 1,
+            "name": "圣诞精选",
+            "products": [{
+                    "id": 11,
+                    "name": "惊叹树心蛋糕",
+                    "price": 299,
+                    "size": "6寸",
+                    "keywords": "3D艺术,匠心之作，暗藏惊喜，刹那永恒",
+                    "images": [
+                        "https://www.pantrysbest.com/system/product_set_images/images/000/000/115/original/%E6%83%8A%E5%8F%B9%E6%A0%91%E5%BF%83-%E5%AE%98%E7%BD%91%E8%AF%A6%E6%83%85%E5%9B%BE1.jpg?1479967779",
+                        "https://www.pantrysbest.com/system/product_set_images/images/000/000/116/original/%E6%83%8A%E5%8F%B9%E6%A0%91%E5%BF%83-%E5%AE%98%E7%BD%91%E8%AF%A6%E6%83%85%E5%9B%BE2.jpg?1479967789",
+                        "https://www.pantrysbest.com/system/product_set_images/images/000/000/117/original/%E6%83%8A%E5%8F%B9%E6%A0%91%E5%BF%83-%E5%AE%98%E7%BD%91%E8%AF%A6%E6%83%85%E5%9B%BE3.jpg?1479967799"
+                    ],
+                    "description": "白色乳酪糖霜加上新鲜的红加仑，经典红丝绒蛋糕胚内嵌绿色抹茶乳酪圣诞树心。切开的那一刹那，乳酪糖霜化成白雪飘落在圣诞树上，满满的祝福随着惊喜如约而至。蛋糕入口，软绵湿润，经典香醇，唇齿间都是圣诞的味道。",
+                    "matrial": "可可粉（法国）、奶油奶酪（澳大利亚）、黄油（新西兰）、乳脂奶油（新西兰）、砂糖（韩国）、糖粉（香港）、面粉（中国）、鸡蛋（中国）、抹茶粉（中国）、鱼胶粉（香港）、红加仑（法国）"
+                },
+                {
+                    "id": 12,
+                    "name": "惊叹雪人蛋糕",
+                    "price": 399,
+                    "size": "6寸",
+                    "keywords": "3D艺术，匠心之作，暗藏惊喜，刹那永恒",
+                    "description": "以淡奶油为基底，搭配巧克力慕斯、抹茶慕斯和原味慕斯，灌注在粉色树莓慕斯中及巧克力物语蛋糕胚之上，使蛋糕垂直切下便能呈现出一个憨态可掬戴着帽子的小雪人形象，好像圣诞老人带来的神奇魔法。",
+                    "images": [
+                        "https://www.pantrysbest.com/system/product_set_images/images/000/000/298/original/%E7%BA%A2%E5%8A%A0%E4%BB%91%E9%9B%AA%E4%BA%BA%E5%AE%98%E7%BD%91%E8%AF%A6%E6%83%85%E5%9B%BE1.jpg?1481179949",
+                        "https://www.pantrysbest.com/system/product_set_images/images/000/000/112/original/%E7%BA%A2%E5%8A%A0%E4%BB%91%E9%9B%AA%E4%BA%BA%E4%BA%A7%E5%93%81%E8%AF%A6%E6%83%852.jpg?1481021002",
+                        "https://www.pantrysbest.com/system/product_set_images/images/000/000/114/original/%E7%BA%A2%E5%8A%A0%E4%BB%91%E9%9B%AA%E4%BA%BA%E4%BA%A7%E5%93%81%E8%AF%A6%E6%83%853.jpg?1481021011"
+                    ]
+                },
+                {
+                    "id": 13,
+                    "name": "冰雪奇缘迷你纸杯蛋糕",
+                    "price": 399,
+                    "size": "6寸",
+                    "keywords": "3D艺术，匠心之作，暗藏惊喜，刹那永恒",
+                    "description": "以淡奶油为基底，搭配巧克力慕斯、抹茶慕斯和原味慕斯，灌注在粉色树莓慕斯中及巧克力物语蛋糕胚之上，使蛋糕垂直切下便能呈现出一个憨态可掬戴着帽子的小雪人形象，好像圣诞老人带来的神奇魔法。",
+                    "images": [
+                        "https://www.pantrysbest.com/system/product_set_images/images/000/000/292/original/frozen%E7%BA%B8%E6%9D%AF_-_%E5%AE%98%E7%BD%91%E4%BA%A7%E5%93%81%E8%AF%A6%E6%83%851.jpg?1480138053",
+                        "https://www.pantrysbest.com/system/product_set_images/images/000/000/293/original/frozen%E7%BA%B8%E6%9D%AF_-_%E5%AE%98%E7%BD%91%E4%BA%A7%E5%93%81%E8%AF%A6%E6%83%852.jpg?1480138071",
+                        "https://www.pantrysbest.com/system/product_set_images/images/000/000/294/original/frozen%E7%BA%B8%E6%9D%AF_-_%E5%AE%98%E7%BD%91%E4%BA%A7%E5%93%81%E8%AF%A6%E6%83%853.jpg?1480138090"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "礼盒",
+            "products": [{
+                    "id": 21,
+                    "name": "新春方形挞礼盒",
+                    "price": 299,
+                    "size": "6寸",
+                    "keywords": "3D艺术,匠心之作，暗藏惊喜，刹那永恒",
+                    "images": [
+                        "https://www.pantrysbest.com/system/product_set_images/images/000/000/306/original/%E6%96%B9%E5%BD%A2%E6%8C%9E-%E6%96%B0%E6%98%A5%E7%A4%BC%E7%9B%92%E5%AE%98%E7%BD%91%E8%AF%A6%E6%83%85%E5%9B%BE1.jpg?1484037854",
+                        "https://www.pantrysbest.com/system/product_set_images/images/000/000/307/original/%E6%96%B9%E5%BD%A2%E6%8C%9E-%E6%96%B0%E6%98%A5%E7%A4%BC%E7%9B%92%E5%AE%98%E7%BD%91%E8%AF%A6%E6%83%85%E5%9B%BE2.jpg?1484037866",
+                        "https://www.pantrysbest.com/system/product_set_images/images/000/000/308/original/%E6%96%B9%E5%BD%A2%E6%8C%9E-%E6%96%B0%E6%98%A5%E7%A4%BC%E7%9B%92%E5%AE%98%E7%BD%91%E8%AF%A6%E6%83%85%E5%9B%BE3.jpg?1484037878"
+                    ],
+                    "description": "白色乳酪糖霜加上新鲜的红加仑，经典红丝绒蛋糕胚内嵌绿色抹茶乳酪圣诞树心。切开的那一刹那，乳酪糖霜化成白雪飘落在圣诞树上，满满的祝福随着惊喜如约而至。蛋糕入口，软绵湿润，经典香醇，唇齿间都是圣诞的味道。",
+                    "matrial": "可可粉（法国）、奶油奶酪（澳大利亚）、黄油（新西兰）、乳脂奶油（新西兰）、砂糖（韩国）、糖粉（香港）、面粉（中国）、鸡蛋（中国）、抹茶粉（中国）、鱼胶粉（香港）、红加仑（法国）"
+                },
+                {
+                    "id": 22,
+                    "name": "迷你挞礼盒",
+                    "price": 399,
+                    "size": "6寸",
+                    "keywords": "3D艺术，匠心之作，暗藏惊喜，刹那永恒",
+                    "description": "以淡奶油为基底，搭配巧克力慕斯、抹茶慕斯和原味慕斯，灌注在粉色树莓慕斯中及巧克力物语蛋糕胚之上，使蛋糕垂直切下便能呈现出一个憨态可掬戴着帽子的小雪人形象，好像圣诞老人带来的神奇魔法。",
+                    "images": [
+                        "https://www.pantrysbest.com/system/product_set_images/images/000/000/299/original/%E8%AF%A6%E6%83%85%E5%9B%BE_%281%29.jpg?1482403987",
+                        "https://www.pantrysbest.com/system/product_set_images/images/000/000/300/original/%E8%AF%A6%E6%83%85%E5%9B%BE_%282%29.jpg?1482404003",
+                        "https://www.pantrysbest.com/system/product_set_images/images/000/000/301/original/%E8%AF%A6%E6%83%85%E5%9B%BE_%283%29.jpg?1482404021",
+                        "https://www.pantrysbest.com/system/product_set_images/images/000/000/302/original/%E8%AF%A6%E6%83%85%E5%9B%BE_%284%29.jpg?1482404035"
+                    ]
+                },
+                {
+                    "id": 23,
+                    "name": "迷你纸杯礼盒",
+                    "price": 180,
+                    "size": "6寸",
+                    "description": "礼盒由3种口味的迷你纸杯蛋糕组成：双色红丝绒迷你纸杯、柠檬迷你纸杯和红丝绒迷你纸杯，香甜细腻，唤醒沉睡已久的味蕾，带您感受夏日里浓浓的丛蜜香甜。礼盒尤其适合和家人或好友齐聚，静享惬意甜蜜时光。",
+                    "matrial": "可可粉（法国），奶油奶酪（澳大利亚），黄油（新西兰），乳脂奶油（新西兰），淡奶油（德国），细砂糖（韩国），面粉（中国）、鸡蛋（中国）",
+                    "images": ["https://www.pantrysbest.com/system/product_set_images/images/000/000/276/original/%E6%96%B9%E5%BD%A2%E6%8C%9E-%E8%AF%A6%E6%83%85%E5%9B%BE1.jpg?1479438800",
+                        "https://www.pantrysbest.com/system/product_set_images/images/000/000/277/original/%E6%96%B9%E5%BD%A2%E6%8C%9E-%E8%AF%A6%E6%83%85%E5%9B%BE2.jpg?1479438842",
+                        "https://www.pantrysbest.com/system/product_set_images/images/000/000/278/original/%E6%96%B9%E5%BD%A2%E6%8C%9E-%E8%AF%A6%E6%83%85%E5%9B%BE3.jpg?1479438903"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "蛋糕",
+            "products": [{
+                    "id": 31,
+                    "name": "草莓空气感蛋糕",
+                    "price": 299,
+                    "size": "6寸",
+                    "keywords": "3D艺术,匠心之作，暗藏惊喜，刹那永恒",
+                    "images": [
+                        "https://www.pantrysbest.com/system/product_set_images/images/000/000/134/original/%E5%AE%98%E7%BD%91%E8%AF%A6%E6%83%85%E9%A1%B5_%281%29.jpg?1451959086",
+                        "https://www.pantrysbest.com/system/product_set_images/images/000/000/143/original/%E5%AE%98%E7%BD%91%E8%AF%A6%E6%83%85%E9%A1%B5.jpg?1451990198",
+                        "https://www.pantrysbest.com/system/product_set_images/images/000/000/303/original/%E8%8D%89%E8%8E%93%E7%A9%BA%E6%B0%94%E6%84%9F%E8%AF%A6%E6%83%85%E5%9B%BE3.jpg?1483509296"
+                    ],
+                    "description": "白色乳酪糖霜加上新鲜的红加仑，经典红丝绒蛋糕胚内嵌绿色抹茶乳酪圣诞树心。切开的那一刹那，乳酪糖霜化成白雪飘落在圣诞树上，满满的祝福随着惊喜如约而至。蛋糕入口，软绵湿润，经典香醇，唇齿间都是圣诞的味道。",
+                    "matrial": "可可粉（法国）、奶油奶酪（澳大利亚）、黄油（新西兰）、乳脂奶油（新西兰）、砂糖（韩国）、糖粉（香港）、面粉（中国）、鸡蛋（中国）、抹茶粉（中国）、鱼胶粉（香港）、红加仑（法国）"
+                },
+                {
+                    "id": 32,
+                    "name": "草莓乳酪慕斯蛋糕",
+                    "price": 399,
+                    "size": "6寸",
+                    "keywords": "3D艺术，匠心之作，暗藏惊喜，刹那永恒",
+                    "description": "以淡奶油为基底，搭配巧克力慕斯、抹茶慕斯和原味慕斯，灌注在粉色树莓慕斯中及巧克力物语蛋糕胚之上，使蛋糕垂直切下便能呈现出一个憨态可掬戴着帽子的小雪人形象，好像圣诞老人带来的神奇魔法。",
+                    "images": [
+                        "https://www.pantrysbest.com/system/product_set_images/images/000/000/136/original/%E8%8D%89%E8%8E%93%E4%B9%B3%E9%85%AA%E6%85%95%E6%96%AF%E8%AF%A6%E6%83%85%E5%9B%BE1.jpg?1483510277",
+                        "https://www.pantrysbest.com/system/product_set_images/images/000/000/144/original/%E8%8D%89%E8%8E%93%E4%B9%B3%E9%85%AA%E6%85%95%E6%96%AF%E8%AF%A6%E6%83%85%E5%9B%BE2.jpg?1483510260",
+                        "https://www.pantrysbest.com/system/product_set_images/images/000/000/305/original/%E8%8D%89%E8%8E%93%E4%B9%B3%E9%85%AA%E6%85%95%E6%96%AF%E8%AF%A6%E6%83%85%E5%9B%BE3.jpg?1483510306"
+                    ]
+                }
+            ]
+        }
+    ],
+
+    "productSale": ["https://www.pantrysbest.com/system/city_slideshows/slide_images/000/000/514/original/%E5%AE%98%E7%BD%91slideshow.jpg?1474988411", ""]
+
+}

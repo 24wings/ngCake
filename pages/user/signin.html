@@ -1,0 +1,26 @@
+<div class="container">
+    <div class="col-md-6 col-md-offset-6">
+        <div uib-alert class="alert-warning" ng-show="errorMsg">{{errorMsg}}</div>
+
+        <h4> 登录</h4>
+        <form>
+            <div>用户名</div>
+            <input type="text" ng-model="user.username">
+            <div>
+                <div> 密码: <span style="color:orange;">忘记密码?</span></div>
+                <input type="password" ng-model="user.password">
+                <br>
+                <input type="checkbox" name="keepPassword">记住密码
+            </div>
+            <button class="btn btn-lg" style="background: black;color:#fff;font-size: 600" ng-click="signin()">登录</button>
+            <button class="btn btn-lg" style="background: red;color:#fff;">注册</button>
+
+
+        </form>
+        <h4>微信登陆</h4>
+        <div class="col-md-6">
+            <img src="https://open.weixin.qq.com/connect/qrcode/011TX2hXO-x86RqY" alt="" class="img-responsive">
+        </div>
+
+    </div>
+</div>
