@@ -4,7 +4,7 @@ angular.module('myApp.services', [])
         var addedProduct = new Map();
 
         // 已经添加进的购物篮商品
-        $http.get('/data/products.json').then(function(rtn) {
+        $http.get('data/products.json').then(function(rtn) {
             allProductGroups = rtn.data.productGroups;
 
             allProductGroups.forEach(function(productGroup) {
