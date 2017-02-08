@@ -30,21 +30,31 @@
 
         </div>
         <!--右边的产品介绍-->
-        <div class="col-md-9 col-lg-9 " style="height: 300px; " ng-hide="selectedProduct ">
-            <div class="box row " ng-repeat="product in selectedProductGroup.products ">
+        <div class="col-md-9 col-lg-9 " style="height: 300px;" ng-hide="selectedProduct ">
+
+            <div class="box row " ng-repeat="product in selectedProductGroup.products " style="margin-bottom: 30px;padding-bottom:20px; ">
                 <div class="col-md-4 col-lg-4 ">
-                    <img ng-src="{{product.images[0]}} " class="img-responsive " alt=" " ng-click="selectProduct(product) ">
+                    <img ng-src="{{product.banner}} " class="img-responsive " alt=" " style="width: 180px;" ng-click="selectProduct(product) ">
                 </div>
-                <div class="col-md-4 col-lg-4 ">
-                    <h4>{{product.name}}</h4>
-                    <div>{{product.price}}￥</div>
-                    <i><span>{{ product.keywords}} </span></i>
-                </div>
-                <div class="col-md-4 col-lg-4 ">
-                    <button class=" less-btn " ng-click="lessProduct(product) "></button>
-                    <!--<button class="btn btn-primary ">{{product.addedNum?product.addedNum:0}}</button>-->
-                    {{product.addedNum!=null?product.addedNum:0}}
-                    <button class=" more-btn " ng-click="moreProduct(product) " flytocart="{{product.images[0]}} "></button>
+                <div class="col-md-8" style="padding-top:20px;border-bottom: 1px solid #aeaeae;">
+                    <div class="row ">
+                        <h4>{{product.name}}</h4>
+                        <div>{{product.price}}￥</div>
+                        <i><span>{{ product.keywords}} </span></i>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 pull-right ">
+                            <button class=" less-btn " ng-click="lessProduct(product) "></button>
+                            <!--<button class="btn btn-primary ">{{product.addedNum?product.addedNum:0}}</button>-->
+                            {{product.addedNum!=null?product.addedNum:0}}
+                            <button class=" more-btn " ng-click="moreProduct(product) " flytocart="{{product.images[0]}} "></button>
+                        </div>
+                    </div>
+                    <div class=" row ">
+                        <div class="col-md-4 pull-right">
+                            <i class="fa fa-shopping-cart cart"></i>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
