@@ -1,149 +1,172 @@
-ul {
-    list-style: none;
-}
-
-.navbar-default {
-    background: url(//www.pantrysbest.com/assets/christmas-bg-06297b0446b04a61a5a68a6e3f13b7cb.png) no-repeat;
-    background-size: cover;
-}
-
-.navbar-brand img {
-    height: 28px;
-    margin-top: -4px;
-}
-
-.dropdown .dropdown-toggle {
-    color: #fff !important;
-    background: transparent !important;
-}
-
-.navbar-nav>li>a {
-    color: #fff !important;
-}
-
-.navbar-default.visible-xs .navbar-nav li {
-    background: url(//www.pantrysbest.com/assets/christmas-bg-06297b0446b04a61a5a68a6e3f13b7cb.png);
-    color: #fff !important;
-    font-weight: 600;
-}
-
-.navbar-default.visible-xs .navbar-nav a {
-    color: #fff !important;
-}
-
-@media (min-width: 768px) {
-    .md-20 {
-        width: 20% !important;
-    }
-}
-
-.productGroup-heading {
-    border: none !important;
-    border-radius: 25px;
-    background: url(https://www.pantrysbest.com/assets/christmas-list-e10e7ede6c7aa679b32d82195b95aa08.png) !important;
-    background-repeat: repeat;
-    background-size: cover !important;
-}
-
-.less-btn {
-    width: 51px;
-    background: url(https://www.pantrysbest.com/assets/product-set03-00513e3868c07fa187e3ece86b6f82bf.png);
-    height: 51px;
-    border: none;
-}
-
-.more-btn {
-    width: 51px;
-    height: 51px;
-    border: none;
-    background: url(https://www.pantrysbest.com/assets/product-set02-7911e6d209a9ced7052995ef7c9d99dc.png);
-}
-
-
-/**地图*/
-
-#allmap {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    margin: 0;
-    font-family: "微软雅黑";
-}
-
-.serviceMenu {
-    border-right: 1px solid black;
-    padding: 50px 0;
-}
-
-.serviceMenu li {
-    margin: 30px 10px;
-}
-
-.serviceMenu li a {
-    color: #390c20;
-    font-weight: 700;
-    padding: 2px 5px;
-}
-
-.serviceMenu .active {
-    background: #390c20 !important;
-    color: #fff;
-    font-weight: 700;
-    padding: 7px 20px;
-    border-radius: 10px;
-}
-
-.addedProducts td {
-    text-align: center;
-}
-
-.addedProducts td:not(:first-child) {
-    padding-top: 50px;
-}
-
-.productGroup {
-    background: black;
-}
-
-.selectedProductGroup {
-    background: red !important;
-}
-
-
-/*会员积分*/
-
-.number {
-    float: left;
-    width: 110px;
-    height: 110px;
-    background: url(//www.pantrysbest.com/assets/crm/bg-a431d23f62d4b43a1c8e885ceaf8a6ac.png);
-    background-size: 100% 100%;
-    padding-top: 37px;
-    font-size: 19px;
-    text-align: center;
-    border-right: 5px solid #DBDCDC;
-}
-
-.signup-form {
-    padding-top: 50px;
-}
-
-.signup-form label {
-    display: block;
-    font-weight: 800;
-}
-
-.signup-form input {
-    margin: 10px 0;
-    border: 2px solid;
-}
-
-.center-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.footer {
-    margin-top: 50px;
-}
+                ul {
+                    list-style: none;
+                }
+                
+                .navbar-default {
+                    background: url(//www.pantrysbest.com/assets/christmas-bg-06297b0446b04a61a5a68a6e3f13b7cb.png) no-repeat;
+                    background-size: cover;
+                }
+                
+                .navbar-brand img {
+                    height: 28px;
+                    margin-top: -4px;
+                }
+                
+                .dropdown .dropdown-toggle {
+                    color: #fff !important;
+                    background: transparent !important;
+                }
+                
+                .navbar-nav>li>a {
+                    color: #fff !important;
+                }
+                
+                .navbar-default.visible-xs .navbar-nav li {
+                    background: url(//www.pantrysbest.com/assets/christmas-bg-06297b0446b04a61a5a68a6e3f13b7cb.png);
+                    color: #fff !important;
+                    font-weight: 600;
+                }
+                
+                .navbar-default.visible-xs .navbar-nav a {
+                    color: #fff !important;
+                }
+                
+                @media (min-width: 768px) {
+                    .md-20 {
+                        width: 20% !important;
+                    }
+                }
+                
+                .productGroup-heading {
+                    border: none !important;
+                    border-radius: 25px;
+                    background: url(https://www.pantrysbest.com/assets/christmas-list-e10e7ede6c7aa679b32d82195b95aa08.png) !important;
+                    background-repeat: repeat;
+                    background-size: cover !important;
+                }
+                
+                .less-btn {
+                    width: 51px;
+                    background: url(https://www.pantrysbest.com/assets/product-set03-00513e3868c07fa187e3ece86b6f82bf.png);
+                    height: 51px;
+                    border: none;
+                }
+                
+                .more-btn {
+                    width: 51px;
+                    height: 51px;
+                    border: none;
+                    background: url(https://www.pantrysbest.com/assets/product-set02-7911e6d209a9ced7052995ef7c9d99dc.png);
+                }
+                /**地图*/
+                
+                #allmap {
+                    width: 100%;
+                    height: 100%;
+                    overflow: hidden;
+                    margin: 0;
+                    font-family: "微软雅黑";
+                }
+                
+                .serviceMenu {
+                    border-right: 1px solid black;
+                    padding: 50px 0;
+                }
+                
+                .serviceMenu li {
+                    margin: 30px 10px;
+                }
+                
+                .serviceMenu li a {
+                    color: #390c20;
+                    font-weight: 700;
+                    padding: 2px 5px;
+                }
+                
+                .serviceMenu .active {
+                    background: #390c20 !important;
+                    color: #fff;
+                    font-weight: 700;
+                    padding: 7px 20px;
+                    border-radius: 10px;
+                }
+                
+                .addedProducts td {
+                    text-align: center;
+                }
+                
+                .addedProducts td:not(:first-child) {
+                    padding-top: 50px;
+                }
+                
+                .productGroup {
+                    background: black;
+                }
+                
+                .selectedProductGroup {
+                    background: #fff;
+                }
+                /*会员积分*/
+                
+                .number {
+                    float: left;
+                    width: 110px;
+                    height: 110px;
+                    background: url(//www.pantrysbest.com/assets/crm/bg-a431d23f62d4b43a1c8e885ceaf8a6ac.png);
+                    background-size: 100% 100%;
+                    padding-top: 37px;
+                    font-size: 19px;
+                    text-align: center;
+                    border-right: 5px solid #DBDCDC;
+                }
+                
+                .signup-form {
+                    padding-top: 50px;
+                }
+                
+                .signup-form label {
+                    display: block;
+                    font-weight: 800;
+                }
+                
+                .signup-form input {
+                    margin: 10px 0;
+                    border: 2px solid;
+                }
+                
+                .center-img {
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+                
+                .footer {
+                    margin-top: 50px;
+                }
+                
+                .panel-group .panel {
+                    border-radius: 20px;
+                }
+                
+                .productGroup .panel-heading {
+                    border-radius: 10px;
+                    color: #fff;
+                    background: transparent;
+                    margin: 0 !important;
+                    padding: 0 !important;
+                    text-align: center;
+                    border-radius: 10px;
+                }
+                
+                .productGroup .heading {
+                    font-size: 10px !important;
+                }
+                
+                .selectedProductGroup .heading {
+                    background: url(//www.pantrysbest.com/assets/cat-list-353817f8b7b3254c2ecc47dc684bf677.png) no-repeat;
+                    background-size: cover;
+                    border-radius: 10px;
+                    margin: 0 !important;
+                    color: #fff;
+                    padding: 10px 0 !important;
+                }
