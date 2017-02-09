@@ -15,14 +15,14 @@
     </script>
     <div class="container-fluid" style="margin-top: 50px;">
         <!--左边侧边栏-->
-        <div class="col-md-2 col-md-offset-1" ng-init="isNavCollapsed=false">
+        <div class="col-md-2 col-md-offset-1" ng-init="isNavCollapsed=false" style="width: 220px;">
 
             <uib-accordion>
                 <div uib-accordion-group ng-repeat="productGroup in productGroups" class="panel-default" ng-class="{selectedProductGroup:selectedProductGroup==productGroup,productGroup:true} ">
                     <uib-accordion-heading>
                         <h4 style="padding:0" class="heading" ng-click="selectProductGroup(productGroup) ">{{productGroup.name}}</h4>
                     </uib-accordion-heading>
-                    <ul>
+                    <ul style="padding-left: 0px;text-align: center">
                         <li ng-repeat="product in productGroup.products " align="left " ng-click="selectProduct(product) "><a style="color:#000 !important; ">{{product.name}}</a></li>
                     </ul>
                 </div>

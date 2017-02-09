@@ -28,9 +28,9 @@ angular.module('myApp.controllers', ['ngRoute', 'myApp.services'])
         };
 
         $scope.logout = function() {
-                UserService.logout();
-            }
-            // 每秒自动刷新购物车
+            UserService.logout();
+        };
+        // 每秒自动刷新购物车
         $interval(function() {
             $scope.categoryNum = productService.getCategoryNum();
             $scope.allPrice = productService.getAllPrice();
@@ -137,7 +137,7 @@ angular.module('myApp.controllers', ['ngRoute', 'myApp.services'])
 
             }).on('changed.bs.select', function() {
                 $scope.selectCity($(this).val());
-            })
+            });
 
         });
 
